@@ -1,0 +1,202 @@
+@font-face {
+  font-family : 'AvenirMed';
+  font-style  : normal;
+  font-weight : 500;
+  src         : url('/fonts/Avenir-Medium.woff2') format('woff2'),
+                url('/fonts/Avenir-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family : 'AvenirBook';
+  font-style  : normal;
+  font-weight : 500;
+  src         : url('/fonts/Avenir-Book.woff2')format('woff2'),
+                url('/fonts/Avenir-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family : 'AvenirRoman';
+  font-style  : normal;
+  font-weight : 500;
+  src         : url('/fonts/Avenir-Roman.woff2') format('woff2'),
+                url('/fonts/Avenir-Roman.woff') format('woff');
+}
+
+@font-face {
+  font-family : 'AvenirHeavy';
+  font-style  : normal;
+  font-weight : 500;
+  src         : url('/fonts/Avenir-Heavy.woff2') format('woff2'),
+                url('/fonts/Avenir-Heavy.woff') format('woff');
+}
+
+body,
+html {
+  height : 100%;
+}
+
+body {
+  margin-bottom  : 0;
+  padding-bottom : 0;
+  color          : #00586B;
+  font-family    : 'AvenirBook';
+}
+
+.images img {
+  width         : 77px;
+  height        : 77px;
+  margin        : 6px 4px;
+  border-radius : 6px;
+}
+
+.copyright {
+  position : relative;
+  bottom   : -245px;
+}
+
+.well {
+  padding : 8px 8px 6px 8px;
+}
+
+.results .well {
+  padding : 10px 20px;
+}
+
+h3 {
+  font-family    : 'AvenirMed';
+  font-size      : 21px;
+  letter-spacing : -1px;
+}
+
+h4 {
+  font-family : 'AvenirHeavy';
+  font-size   : 15px;
+}
+
+.vitals {}
+
+.vitals .stats {
+  margin-left   : 0px;
+  padding-right : 15px;
+  padding-left  : 0px;
+  text-align    : center;
+}
+
+.vitals h3 {
+  position : relative;
+  left     : -13px;
+  margin   : 0 0 20px 0;
+  padding  : 0;
+}
+
+.photo {
+  width         : 250px;
+  height        : 250px;
+  border        : 2px solid #e2e2e2;
+  border-radius : 10px;
+}
+
+.break {
+  height : 25px;
+}
+
+ul.details,
+ul.smallDetail {
+  list-style-type : none;
+}
+
+.content ul.details {
+  padding-left : 0;
+  font-size    : 15px;
+  line-height  : 15px;
+}
+
+.content ul.smallDetail {
+  padding-left : 0;
+}
+
+ul.details,
+ul.smallDetail {
+  padding-top    : 25px;
+  font-family    : 'AvenirBook';
+  font-size      : 18px;
+  line-height    : 19px;
+  letter-spacing : -1px;
+}
+
+ul.details li {
+  margin-bottom : 7px;
+}
+
+.stats b,
+ul.details li b,
+ul.smallDetail li b {
+  font-family : 'AvenirHeavy';
+}
+
+ul.smallDetail {
+  font-size : 13px;
+}
+
+.vitals ul.smallDetail {
+  position : relative;
+  position : relative;
+  top      : 20px;
+  top      : 20px;
+  left     : -15px;
+  left     : -15px;
+  padding  : 0;
+  padding  : 0;
+}
+
+.name {
+  font-family : 'AvenirHeavy';
+}
+
+.upd {
+  opacity        : .5;
+  font-size      : 13px;
+  letter-spacing : -1px;
+}
+
+.main {
+  height     : 969px;
+  min-height : 100%;
+}
+
+.terminal {
+  height           : 130%;
+  min-height       : 100%;
+  color            : #9e9b9b;
+  background-color : #000000;
+}
+
+.green {
+  color : green;
+}
+
+.results {
+  padding-left : 0;
+}
+
+.container-fluid {
+  margin-right  : 0;
+  padding-right : 0;
+}
+
+.navbar-inverse {
+  color            : #ffffff;
+  border-color     : #00586B;
+  background-color : #00586B;
+}
+
+.navbar-inverse .navbar-brand {
+  color       : #ffffff;
+  font-family : 'AvenirMed';
+}
+
+.terminal {
+  padding     : 25px;
+  color       : #9e9b9b;
+  font-family : 'AvenirBook';
+}
