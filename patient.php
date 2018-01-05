@@ -21,10 +21,6 @@
   <!-- Custom styles for this template -->
   <link href="/js/jumbotron.css" rel="stylesheet">
 
-  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-  <!--[if lt IE 9]><script src="/node_modules/bootstrap/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-  <script src="/node_modules/bootstrap/assets/js/ie-emulation-modes-warning.js"></script>
-
   <!-- Custom styles -->
   <link href="/css/custom.css" rel="stylesheet">
 
@@ -34,18 +30,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   <style>
-  .photo .image {
-    background-image: url(/img/man.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 180px;
-    position: relative;
-    top: 34px;
-    border-radius: 8px;
-    width: 180px;
-    margin: 0 auto;
-    border: 1px dashed #ccc;
-  }
+  
   </style>
 </head>
 

@@ -49,6 +49,19 @@ body {
   border-radius : 6px;
 }
 
+.photo .image {
+    background-image: url(/img/man.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 180px;
+    position: relative;
+    top: 34px;
+    border-radius: 8px;
+    width: 180px;
+    margin: 0 auto;
+    border: 1px dashed #ccc;
+  }
+
 .copyright {
   position : relative;
   bottom   : -245px;
@@ -56,6 +69,11 @@ body {
 
 .well {
   padding : 8px 8px 6px 8px;
+}
+
+.laborder .well {
+  display: inline-block;
+  padding: 20px;
 }
 
 .results .well {
