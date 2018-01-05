@@ -13,8 +13,6 @@
     <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="/node_modules/bootstrap/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="/js/jumbotron.css" rel="stylesheet">
     <!-- Custom styles -->
     <link href="/css/custom.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -23,16 +21,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
-    .name {
-    line-height: 30px;
-    }
-    select {
-    height: 30px;
-    width: 100%;
-    margin-bottom: 10px;
-    }
-    option {
-    }
+    
     </style>
   </head>
   <body>
